@@ -2,18 +2,28 @@ const Logo = ({ className = '', ...props }) => (
   <svg
     width="32"
     height="32"
-    viewBox="0 0 32 32"
+    viewBox="0 0 128 128"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    {...props}
   >
-    <rect width="100%" height="100%" rx="16" fill="white" />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-      fill="black"
+    <rect width="128" height="128" rx="64" fill="white" />
+    <path d="M75 25L109.641 85H40.359L75 25Z" fill="black" />
+    <path d="M62 21L105.301 96H18.6987L62 21Z" fill="black" />
+    <rect
+      x="68.7989"
+      y="32.7689"
+      width="2.9426"
+      height="62.0382"
+      transform="rotate(-30 68.7989 32.7689)"
+      fill="white"
+    />
+    <rect
+      x="32"
+      y="73"
+      width="3"
+      height="60"
+      transform="rotate(-90 32 73)"
+      fill="white"
     />
   </svg>
 );
