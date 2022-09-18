@@ -1,4 +1,5 @@
 import Pricing from 'components/Pricing';
+import Header from 'components/Header';
 import { getActiveProductsWithPrices } from 'utils/supabase-client';
 import { Product } from 'types';
 import { GetStaticPropsResult } from 'next';
